@@ -21,7 +21,7 @@ public class Homes
         String[] names = new String[numEmpleados];
         int[] numSolds = new int[numEmpleados];
         
-        double sold,comision,sumSolds = 0;
+        double sold,comision,sumSolds=0, sumNumSolds = 0;
         
         for (int i=0 ; i<numEmpleados;i++){
          
@@ -31,12 +31,13 @@ public class Homes
             names[i]=objsc.next();
             System.out.println("Digite el numero de ventas del vendedor:");
             numSolds[i]=objsc.nextInt();
-                                   
-            for (int j=0; j<numSolds[i];j++){
-                System.out.println("Digite el precio del inmueble "+(j+1)+" del vendedor "+ names[i]+" : ");
-                sold = objsc.nextInt();
-                sumSolds += sold;
-            }
+            sumNumSolds += numSolds[i];                       
+        }
+        
+        for (int j=0; j<sumNumSolds;j++){
+            System.out.println("Digite el precio del inmueble "+(j+1)+" : ");
+            sold = objsc.nextInt();
+            sumSolds += sold;
         }
         
         comision = sumSolds*0.03;
