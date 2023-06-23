@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=Vendedor
+comment1.params=
+comment1.target=java.lang.String\ getId()
+comment10.params=ventaTres
+comment10.target=void\ setVentaTres(double)
+comment11.params=id\ nombre\ ventaUno\ ventaDos\ ventaTres
+comment11.target=Vendedor(java.lang.String,\ java.lang.String,\ double,\ double,\ double)
+comment12.params=
+comment12.target=double\ calcularPromedio()
+comment2.params=id
+comment2.target=void\ setId(java.lang.String)
+comment3.params=
+comment3.target=java.lang.String\ getNombre()
+comment4.params=nombre
+comment4.target=void\ setNombre(java.lang.String)
+comment5.params=
+comment5.target=double\ getVentaUno()
+comment6.params=ventaUno
+comment6.target=void\ setVentaUno(double)
+comment7.params=
+comment7.target=double\ getVentaDos()
+comment8.params=ventaDos
+comment8.target=void\ setVentaDos(double)
+comment9.params=
+comment9.target=double\ getVentaTres()
+numComments=13
