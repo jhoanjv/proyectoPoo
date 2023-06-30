@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=VendedorSenior
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ VendedorSenior\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=id\ nombre\ ventaUno\ ventaDos\ ventaTres\ ventaCuatro
+comment1.target=VendedorSenior(java.lang.String,\ java.lang.String,\ double,\ double,\ double,\ double)
+comment10.params=
+comment10.target=double\ calcularPromedio()
+comment2.params=
+comment2.target=double\ getVentaUno()
+comment3.params=ventaUno
+comment3.target=void\ setVentaUno(double)
+comment4.params=
+comment4.target=double\ getVentaDos()
+comment5.params=ventaDos
+comment5.target=void\ setVentaDos(double)
+comment6.params=
+comment6.target=double\ getVentaTres()
+comment7.params=ventaTres
+comment7.target=void\ setVentaTres(double)
+comment8.params=
+comment8.target=double\ getVentaCuatro()
+comment9.params=ventaCuatro
+comment9.target=void\ setVentaCuatro(double)
+numComments=11
